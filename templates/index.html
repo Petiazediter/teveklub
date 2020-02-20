@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link href="{{ url_for('static',filename='css.css') }}" type="text/css" rel="stylesheet">
+    <script src="{{ url_for('static', filename='playerSelector.js') }}" type="text/javascript" defer></script>
+</head>
+<body>
+    <div id="ad1"></div>
+    <div id="ad2"></div>
+    <div class="center_div">
+        <p class="pixelfont" align="center">Change Player Colors by clicking on them.</p>
+        <div id="player1select" name="player1select" data-color="blue" class="playerSelect leftP blue"></div>
+        <div id="player2select" name="player2select" data-color="red" class="playerSelect rightP red"></div>
+        <form method="post" action="/game">
+            <button name="subbutton" id="subbutton" type="submit">Play Game</button>
+        </form>
+    </div>
+</body>
+</html>

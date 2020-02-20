@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <script src="{{ url_for('static',filename='js.js') }}" type="text/javascript" defer></script>
+    <link href="{{ url_for('static',filename='css.css') }}" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="ad1"></div>
+    <div id="ad2"></div>
+        <p id="player1boost">Player1 Boosts: 3</p>
+        <p id="player2boost">Player2 Boosts: 3</p>
+    <div id="gamescreen" data-colors="{{ colors }}" class="center_div">
+        <table>
+            <tbody>
+                {% for row in range(100) %}
+                    <tr>
+                    {% for col in range(100) %}
+                        <td id = "{{ row }}-{{ col }}"></td>
+                    {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+        <div id="buttonPress">
+        Press Space To Start
+        </div>
+        <div id="mcLoot">
+            <img id="diamond" src="{{ url_for('static',filename='diamond.gif') }}">
+            <img id="pickaxe" src="{{ url_for('static',filename='pickaxe.gif') }}">
+            <img id="bow" src="{{ url_for('static',filename='bow.gif') }}">
+            <img id="bottle" src="{{ url_for('static',filename='bottle.gif') }}">
+            <img id="gold" src="{{ url_for('static',filename='gold.gif') }}">
+            <img id="goldapple" src="{{ url_for('static',filename='goldapple.gif') }}">
+            <img id="smaragd" src="{{ url_for('static',filename='smaragd.gif') }}">
+            <img id="sword" src="{{ url_for('static',filename='sword.gif') }}">
+        </div>
+
+
+</body>
+</html>

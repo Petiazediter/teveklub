@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+#ad1{
+    width: 200px;
+    height: 400px;
+    background-image: url("https://thumbs.gfycat.com/CharmingWeepyDachshund-max-1mb.gif");
+    background-repeat: no-repeat;
+    background-position-y: center;
+
+    position: absolute;
+    top:50%;
+    left:10%;
+    margin-top: -200px;
+}
+
+
+
+#ad2{
+    width: 200px;
+    height: 400px;
+    background-image: url("https://media1.tenor.com/images/492bda3f8a6cc976c3cac82426791b7c/tenor.gif?itemid=14349600");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+
+    position: absolute;
+    top:50%;
+    right:10%;
+    margin-top: -200px;
+}
+
+#gamescreen{
+    background-color: black;
+}
+
+.center_div{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:50%;
+    background-color: lightgray;
+    left:50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+
+#player1boost{
+    position: absolute;
+    left:25%;
+    font-size: 24px;
+    font-family: pixelFont;
+}
+
+.pixelfont{
+    font-family: pixelFont;
+    font-size: 20px;
+}
+
+.playerSelect{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    position:absolute;
+}
+
+#subbutton{
+    position: absolute;
+    top: 300px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: pixelFont;
+    font-size: 20px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+#subbutton:hover{
+    height: 45px;
+    width: 210px;
+    margin-left: -105px;
+    transition: height 100ms, width 100ms, margin-left 100ms;
+}
+
+.leftP{
+    left: 10px;
+}
+
+.rightP{
+    right: 10px;
+}
+
+
+
+#buttonPress{
+    position: absolute;
+    width:100%;
+    top: 50%;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+#player2boost{
+    position: absolute;
+    font-family: pixelFont;
+    font-size: 24px;
+    right:25%;
+}
+
+#buttonPress{
+    font-family: pixelFont;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td.player1{
+    background-color: indianred;
+}
+table td.player2{
+    background-color: cadetblue;
+}
+
+td{
+    width: 2px;
+    height: 2px;
+}
+
+@font-face {
+  font-family: pixelFont;
+  src: url("font.ttf");
+}
+
+
+.blue{
+    background-color: cadetblue;
+}
+
+.red{
+    background-color: indianred;
+}
+
+.yellow{
+    background-color: #f4e568;
+}
+
+.green{
+    background-color: darkseagreen;
+}
+
+.pink{
+    background-color: deeppink;
+}
+
+.rainbow{
+    background-color: #45CEEF;
+    -webkit-animation: rainbow 1s infinite alternate;
+    animation: rainbow 1s infinite alternate;
+}
+
+@-webkit-keyframes rainbow {
+0%   { background-color: #009e85; }
+25%  { background-color: #ea309c; }
+50%  { background-color: #f59c0d; }
+75%  { background-color: #2482b9; }
+}
+@keyframes rainbow {
+0%   { background-color: #009e85; }
+25%  { background-color: #ea309c; }
+50%  { background-color: #f59c0d; }
+75%  { background-color: #2482b9; }
+}
+
+.sunset{
+    background-color: #581845 ;
+    -webkit-animation: sunset 500ms infinite alternate;
+    animation: sunset 500ms infinite alternate;
+}
+
+.mcbg{
+    background-image: url("https://i0.wp.com/www.craftycreations.net/wp-content/uploads/2019/08/Stone-Block-e1566147610895.png?fit=500%2C500&ssl=1");
+}
+
+@-webkit-keyframes sunset{
+0%   { background-color: #DAF7A6; }
+20%  { background-color: #FFC300; }
+40%  { background-color: #FF5733; }
+60%  { background-color: #C70039; }
+80%  { background-color: #900C3F; }
+}
+
+@keyframes sunset {
+0%   { background-color: #DAF7A6; }
+20%  { background-color: #FFC300; }
+40%  { background-color: #FF5733; }
+60%  { background-color: #C70039; }
+80%  { background-color: #900C3F; }
+}
+
+
+#diamond{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 55%;
+    left:50%;
+}
+
+#pickaxe{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 55%;
+    left:45%;
+}
+
+#mafiaad{
+    position: absolute;
+    bottom: 0%;
+}
+
+#bow{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 60%;
+    left:55%;
+}
+
+#bottle{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left:60%;
+}
+
+#gold{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 35%;
+    left:40%;
+}
+
+#goldapple{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 65%;
+    left:50%;
+}
+
+#smaragd{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 45%;
+    left:45%;
+}
+
+#sword{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left:37%;
+}
+
+#mcLoot{
+    visibility: hidden;
+}
